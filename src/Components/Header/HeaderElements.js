@@ -1,10 +1,12 @@
 import styled from "styled-components";
+import { BsArrowRight } from "react-icons/bs";
 
 export const HeaderContainer = styled.nav`
   padding: 0 0 0 15%;
 `;
 export const HeaderlargeText = styled.nav`
   font-weight: 900;
+  color: #454545;
   font-size: 8.5rem;
   text-transform: capitalize;
   letter-spacing: 0.8rem;
@@ -13,8 +15,8 @@ export const HeaderlargeText = styled.nav`
 export const HeadersmallText = styled.nav`
     color: #c0bcbc;
     position: absolute;
-    bottom: 20%;
-    width: 34%;
+    bottom: 30%;
+    width: 35%;
     line-height: 1.5rem;
   }
 `;
@@ -27,7 +29,8 @@ export const GridContainer = styled.div`
   left: 0;
   width: 55%;
   height: 130px;
-  background-color: #fddcdd;
+  background-color: #fddcdd9e;
+  color: #454545;
 `;
 
 export const Column = styled.nav`
@@ -41,3 +44,8 @@ export const BoldText = styled.nav`
   font-weight: 900;
 `;
 export const RegText = styled.nav``;
+
+export const ArrowIcon = styled(BsArrowRight)`
+  color: #454545;
+  font-size: 45px;
+`;

@@ -1,5 +1,6 @@
 import React from "react";
+import { ImageContainer } from "./Pages/PagesElements";
 
 export const Image = () => {
-  return <div style={{ backgroundColor: "#ccc", height: "100%" }}></div>;
+  return <ImageContainer></ImageContainer>;
 };

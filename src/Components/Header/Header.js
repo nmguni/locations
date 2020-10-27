@@ -6,6 +6,7 @@ import {
   GridContainer,
   Column,
   BoldText,
+  ArrowIcon,
 } from "./HeaderElements";
 
 const Header = () => {
@@ -40,7 +41,7 @@ const Header = () => {
               // justifyContent: " flex-end",
             }}
           >
-            ---
+            <ArrowIcon />
           </Column>
         </GridContainer>
       </HeaderContainer>
