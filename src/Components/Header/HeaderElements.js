@@ -6,7 +6,7 @@ export const HeaderContainer = styled.nav`
 `;
 export const HeaderlargeText = styled.nav`
   font-weight: 900;
-  color: #454545;
+  color: #000;
   font-size: 8.5rem;
   text-transform: capitalize;
   letter-spacing: 0.8rem;
@@ -15,7 +15,7 @@ export const HeaderlargeText = styled.nav`
 export const HeadersmallText = styled.nav`
     color: #c0bcbc;
     position: absolute;
-    bottom: 30%;
+    bottom: 25%;
     width: 35%;
     line-height: 1.5rem;
   }
@@ -46,6 +46,6 @@ export const BoldText = styled.nav`
 export const RegText = styled.nav``;
 
 export const ArrowIcon = styled(BsArrowRight)`
-  color: #454545;
+  color: #ooo;
   font-size: 45px;
 `;
